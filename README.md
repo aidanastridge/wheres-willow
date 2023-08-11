@@ -4,7 +4,7 @@
 
 ## Why?
 
-After reading a blog post on simulating data, I thought how could I make "Where's Waldo?" in a csv dataset/ Unfortunatly, having one "Waldo" would be too simple to find your answer. Instead, it is the descriptors that make the data points interesting.
+After reading a blog post on simulating data, I thought how could I make "Where's Waldo?" into a csv dataset or relational database. Unfortunatly, having one "Waldo" would be too simple. Instead, it's the descriptors that make the data points interesting.
 
 I also changed the character name to "Willow" because it is radically different from the books.  
 

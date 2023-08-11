@@ -11,7 +11,7 @@ I also changed the character name to "Willow" because it is radically different 
 1000 data points are simulated, but you can change that to whatever you would like.
 Truthfully, there might not be a unique "Willow." But you can still filter and search for one. Also, you can perfrom EDA on the data.
 
-This repository is open for anyone:
+This repository is open for anyone  to contribute:
 - Fine tune the simulation? Go ahead!
 - Add more descriptors? Sure.
 - Think you can do it better? You probably can.  

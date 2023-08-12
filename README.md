@@ -1,4 +1,4 @@
-![alt text](http://url/to/img.png](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
+![alt text](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
 
 # 🔎 Wheres Willow?
 

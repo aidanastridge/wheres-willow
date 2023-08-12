@@ -1,3 +1,5 @@
+![alt text](http://url/to/img.png](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
+
 # 🔎 Wheres Willow?
 
 ### Do no hesitate in contributing, this dataset simulator is very simple! 

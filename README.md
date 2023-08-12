@@ -14,4 +14,5 @@ Truthfully, there might not be a unique "Willow." But you can still filter and s
 This repository is open for anyone  to contribute:
 - Fine tune the simulation? Go ahead!
 - Add more descriptors? Sure.
-- Think you can do it better? You probably can.  
+
+ I might have missed something, I'm only human!

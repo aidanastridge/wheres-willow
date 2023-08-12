@@ -225,7 +225,7 @@ shoes_col = 'Brown'
 
 # CSV
 
-csv_path = r'/Users/aidanastridge/Documents/wheres_willow.csv'
+csv_path = r''
 header = [
     "id", "Name", "Birth Date", "Country", "Hat", "Hat Brand", "Hat Colour", "Glasses", "Glasses Brand", "Glasses Colour", "Shirt", "Shirt brand", "Shirt colour", "Jeans", "Jeans brand", "Jeans colour", "Bag", "Bag Brand", "Bag Colour", "Cane", "Shoes", "Shoes Brand", "Shoes colour"
 ]

@@ -17,6 +17,6 @@ This repository is open for anyone  to contribute:
 - Fine tune the simulation? Go ahead!
 - Add more descriptors? Sure.
 
-I'm debating changing the random operation as it isn't that interesting when all the decsiptors are given a uniform distribtion.
+I'm debating changing the random operation as it isn't that interesting when all the decsiptors are given a uniform distribution.
 
  ❤️ I might have missed something, I'm only human!

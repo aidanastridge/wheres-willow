@@ -11,6 +11,8 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 One thousand data points were simulated, but you can change them to whatever you would like.
 There is one "Willow" that will be unique for each simulation. However, this dataset is more useful for EDA practice.
 
+I used a different name because I didn't think it was exactly the same as the book series.
+
 Do whatever you want with it:
 - Fine tune the simulation? Go ahead!
 - Add more descriptors? Sure.

@@ -11,7 +11,7 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 I also changed the character name to "Willow" because I wanted to be different.
 
 One thousand data points were simulated, but you can change that to whatever you would like.
-There is one Willow that will be unique for each simulation. However, this dataset is more usefull for EDA practice.
+There is one Willow that will be unique for each simulation. However, this dataset is more useful for EDA practice.
 
 This repository is open for anyone  to contribute:
 - Fine tune the simulation? Go ahead!

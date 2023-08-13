@@ -2,7 +2,7 @@
 
 # 🔎 Wheres Willow?
 
-#### Do no hesitate in changing the parameters, this dataset simulator is very simple! 
+#### Do no hesitate in changing the parameters; This dataset simulator is easily changed! 
 
 ## Why?
 

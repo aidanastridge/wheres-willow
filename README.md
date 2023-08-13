@@ -13,7 +13,7 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 One thousand data points were simulated, but you can change them to whatever you would like.
 There is one "Willow" that will be unique for each simulation. However, this dataset is more useful for EDA and data visualization practice.
 
-I might add more to the parameters so a truly unique willow is made across the board, but I fear that might require spme optimization. 
+I might add more to the parameters so a truly unique "Willow", but I fear that might require spme optimization. 
 
 Do whatever you want with it:
 - Fine tune the simulation? Go ahead!

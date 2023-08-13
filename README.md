@@ -2,7 +2,7 @@
 
 # 🔎 Wheres Willow?
 
-#### Do no hesitate in contributing, this dataset simulator is very simple! 
+#### Do no hesitate in editing, this dataset simulator is very simple! 
 
 ## Why?
 

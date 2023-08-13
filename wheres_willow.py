@@ -9,7 +9,7 @@ import pandas as pd
 start_date = datetime(1987, 1, 1)
 end_date = datetime(1987, 12, 31)
 
-name = ["William", "Wendy", "Wesley", "Whitney", "Wyatt", "Wilhelm", "Wallace", "Winona", "Walter", "Wren", "Walker", "Winifred", "Wayne", "Wilma", "Winston", "Wanda", "Warren", "Willa", "Weston", "Whitley"]
+name = ["William", "Wendy", "Wesley", "Whitney", "Wyatt", "Wilhelm", "Wallace", "Winona", "Walter", "Wren", "Walker", "Winifred", "Wayne", "Wade", "Winston", "Wanda", "Warren", "Willa", "Weston", "Whitley"]
 
 country = [
     "United States",
@@ -129,7 +129,7 @@ shoes_col = 'Brown'
 
 # CSV
 
-csv_path = r'/wheres_willow_example.csv'
+csv_path = r'/Users/aidanastridge/Documents/wheres_willow_example.csv'
 header = [
     "id", "Name", "Birth Date", "Country of Origin", "Hat", "Hat Brand", "Hat Colour", "Glasses", "Glasses Brand", "Glasses Colour", "Shirt", "Shirt brand", "Shirt colour", "Jeans", "Jeans brand", "Jeans colour", "Bag", "Bag Brand", "Bag Colour", "Cane", "Shoes", "Shoes Brand", "Shoes colour"
 ]

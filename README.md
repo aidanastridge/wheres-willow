@@ -1,7 +1,7 @@
 ![Wheres Waldo blue jeasn and red-white striped shirt](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
 
 # 🔎 Wheres Willow?
-## It's like "Where's Waldo?"
+#### It's like "Where's Waldo?"
 ### Do no hesitate in contributing, this dataset simulator is very simple! 
 
 ## Why?

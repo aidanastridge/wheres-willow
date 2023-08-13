@@ -1,6 +1,8 @@
-![Wheres Waldo blue jeasn and red-white striped shirt](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
+![Wheres Waldo blue jeans and red-white striped shirt](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
 
 # 🔎 Wheres Willow?
+
+### Inspired by "Where's Waldo?"
 
 #### Do no hesitate in changing the parameters; This dataset simulator is easily edited! 
 
@@ -10,8 +12,6 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 
 One thousand data points were simulated, but you can change them to whatever you would like.
 There is one "Willow" that will be unique for each simulation. However, this dataset is more useful for EDA practice.
-
-Inspired by "Wheres Waldo?"
 
 Do whatever you want with it:
 - Fine tune the simulation? Go ahead!

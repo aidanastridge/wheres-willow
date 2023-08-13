@@ -1,14 +1,15 @@
-import csv
+
 import random
 from datetime import datetime, timedelta
 import numpy as np, numpy.random
+import pandas as pd
 
 # Variables
 
 start_date = datetime(1987, 1, 1)
 end_date = datetime(1987, 12, 31)
 
-name = "Willow"
+name = ["William", "Wendy", "Wesley", "Whitney", "Wyatt", "Wilhelm", "Wallace", "Winona", "Walter", "Wren", "Walker", "Winifred", "Wayne", "Wilma", "Winston", "Wanda", "Warren", "Willa", "Weston", "Whitley"]
 
 country = [
     "United States",
@@ -130,13 +131,14 @@ shoes_col = 'Brown'
 
 csv_path = r'/Users/aidanastridge/Documents/wheres_willow_example.csv'
 header = [
-    "id", "Name", "Birth Date", "Country", "Hat", "Hat Brand", "Hat Colour", "Glasses", "Glasses Brand", "Glasses Colour", "Shirt", "Shirt brand", "Shirt colour", "Jeans", "Jeans brand", "Jeans colour", "Bag", "Bag Brand", "Bag Colour", "Cane", "Shoes", "Shoes Brand", "Shoes colour"
+    "id", "Name", "Birth Date", "Country of Origin", "Hat", "Hat Brand", "Hat Colour", "Glasses", "Glasses Brand", "Glasses Colour", "Shirt", "Shirt brand", "Shirt colour", "Jeans", "Jeans brand", "Jeans colour", "Bag", "Bag Brand", "Bag Colour", "Cane", "Shoes", "Shoes Brand", "Shoes colour"
 ]
 
 # Functions
 def random_date(start, end):
     return start + timedelta(days=random.randint(0, (end - start).days))
 
+name_gen = np.random.dirichlet(np.ones(20))
 country_gen = np.random.dirichlet(np.ones(10))
 hat_gen = np.random.dirichlet(np.ones(10))
 glass_gen = np.random.dirichlet(np.ones(10))
@@ -148,16 +150,13 @@ shoe_gen = np.random.dirichlet(np.ones(10))
 # Size
 total_rows = 1000  # Desired total rows
 
- # Simulate
- # CSV
-
-with open(csv_path, mode='w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(header)
-    
-    for _ in range(total_rows):
-                  index_sim = _
-                  name_sim = name
+# Simulate
+# CSV
+result = []
+   
+for _ in range(total_rows):
+                  index_sim = _+1
+                  name_sim = random.choices(name, weights = name_gen)[0]
                   birth_date_sim = random_date(start_date, end_date).strftime("%d/%m/%Y")
                   country_sim = random.choices(country, weights = country_gen)[0]
                   hat_sim = hat
@@ -205,7 +204,24 @@ with open(csv_path, mode='w', newline='', encoding='utf-8') as file:
                         shoe_brands_sim, 
                         shoes_col_sim
                         ]
-                  
-                  writer.writerow(row_data)
-      
-print("CSV file generated successfully.")
+                  result.append(row_data)
+
+df = pd.DataFrame(result,columns=header)
+
+# Specify the column name you want to replace values in
+column_to_replace = 'Name'
+
+# Define the replacement probability (e.g., 0.2 means 20% chance of replacement)
+# List of replacement strings
+replacement_strings = ['Willow']
+
+# Apply random replacement based on the defined probability
+replace_index = np.random.randint(0, len(df))
+
+# Randomly select a replacement string
+replacement_string = np.random.choice(replacement_strings)
+
+# Replace the value at the selected index
+df.loc[replace_index, column_to_replace] = replacement_string
+
+df.to_csv(csv_path)

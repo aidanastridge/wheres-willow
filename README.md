@@ -11,7 +11,7 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 I also changed the character name to "Willow" because I wanted to be different.
 
 One thousand data points were simulated, but you can change that to whatever you would like.
-Truthfully, there might not be a unique "Willow." (Birth date might be distinct) But you can still filter and search for one. Also, you can do EDA becuase the descirptors are not uniformly distributed.
+Truthfully, there might not be a unique "Willow." (Birth date might be distinct) But you can still filter and search for one. Also, you can do EDA because the descriptors are not uniformly distributed.
 
 This repository is open for anyone  to contribute:
 - Fine tune the simulation? Go ahead!

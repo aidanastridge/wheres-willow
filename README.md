@@ -8,7 +8,7 @@
 
 After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity:7095418359671869440?utm_source=share&utm_medium=member_desktop) on simulating data with Chat GPT, I wanted to use the tutorial for fun!
 
-One thousand data points were simulated, but you can change that to whatever you would like.
+One thousand data points were simulated, but you can change them to whatever you would like.
 There is one "Willow" that will be unique for each simulation. However, this dataset is more useful for EDA practice.
 
 Do whatever you want with it:

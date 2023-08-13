@@ -11,7 +11,7 @@ After reading a [blog post](https://www.linkedin.com/feed/update/urn:li:activity
 One thousand data points were simulated, but you can change that to whatever you would like.
 There is one "Willow" that will be unique for each simulation. However, this dataset is more useful for EDA practice.
 
-This repository is open for anyone  to contribute:
+Do whatever you want with it:
 - Fine tune the simulation? Go ahead!
 - Add more descriptors? Sure.
 

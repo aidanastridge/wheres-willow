@@ -1,6 +1,6 @@
 ![Wheres Waldo blue jeans and red-white striped shirt](https://github.com/aidanastridge/wheres-willow/blob/main/wheres_willow_banner.png)
 
-## 🔎 Wheres Willow?
+# 🔎 Wheres Willow?
 
 ### Inspired by "Where's Waldo?"
 
